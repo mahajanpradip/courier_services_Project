@@ -1,0 +1,279 @@
+.profile-text {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+  }
+  
+  .input-label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+  }
+  
+  .uprofile {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  .uprof {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .up {
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .save-button {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .save-button:hover {
+    background-color: #1976D2;
+  }
+  
+  .cancel-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .cancel-button:hover {
+    background-color: #e53935;
+  }
+  
+  .input-field:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+
+  .updatedate{
+    background-color: orange;
+    padding:50px
+  }
+
+
+
+
+
+/* this is view history page */
+.viewhistoryrow{
+  background-color: orange;
+  height: 100vh;
+}
+  .history-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+    max-width: 1000px;
+    margin: auto;
+    background-color:gray;
+  }
+  
+  table {
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .thead-dark {
+    background:black;
+    color: white;
+  }
+  
+  .badge {
+    font-size: 0.9em;
+  }
+  
+  .badge-success {
+    background-color: #4caf50;
+  }
+  
+  .badge-warning {
+    background-color: #ff9800;
+  }
+  
+  .badge-danger {
+    background-color: #f44336;
+  }
+/*   
+  .spinner-border {
+    width: 3rem;
+    height: 3rem;
+  } */
+  
+
+    
+  #use{
+    background-color: orange;
+  }
+  .uath{
+    background-color: black;
+  }
+
+
+
+
+
+
+
+/* 
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f8ff; 
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4caf50; 
+  padding: 10px 20px;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links .link {
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-links .link:hover {
+  background-color: #388e3c;
+  transform: scale(1.1);
+}
+
+.page {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.page h1 {
+  margin-bottom: 20px;
+  font-size: 2.8em;
+  color: #0078d7; 
+}
+
+.page p {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.button {
+  padding: 12px 25px;
+  background-color: #0078d7; 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #0056b3; 
+  transform: translateY(-2px);
+}
+
+.input {
+  padding: 12px;
+  width: 80%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border: 2px solid #0078d7;
+  border-radius: 5px;
+  font-size: 1em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #4caf50; 
+  color: #fff;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+  margin: 0;
+} */

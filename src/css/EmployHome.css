@@ -1,0 +1,255 @@
+
+
+.emphm{
+  background-color: #ddd;
+  align-items: center;
+  justify-content: center;
+  height: 177vh;
+}
+
+
+/* General Layout */
+
+
+.empd {
+  padding: 0px;
+ background-color: red;
+}
+
+.dashboard-container {
+  display:inline-flex;
+  width: 100%;
+  /* padding: 20px; */
+
+ padding:0px;
+
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 250px;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+background: linear-gradient(120deg,gray,gray);
+
+}
+
+.sidebar-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-item {
+  padding: 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #34495e;
+  transition: background-color 0.3s;
+}
+
+.sidebar-item:hover {
+  background-color: #34495e;
+}
+
+/* Main Content Styles */
+.main-content {
+  flex-grow: 1;
+  /* background-color: orange; */
+  background:linear-gradient(120deg,orange,orange);
+  border-radius: 8px;
+  padding: 20px;
+  padding-bottom: 500px;
+  height: 177vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+.sectio{
+  background-color: #fff;
+}
+.sectio {
+  margin-bottom: 30px;
+  width: 90%;
+  height: 90px;
+  border-radius: 10px;
+  /* background-color:wheat; */
+  background:linear-gradient(120deg,#fff,#fff);
+  /* background-color:black; */
+  padding: 10px;
+}
+
+.sectio h3 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+
+}
+.section{
+  background-color: #fff;
+}
+/* .logout-button {
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #c0392b;
+}
+.logout-button::before:hover{
+  top:0%;
+  bottom: 0%;
+  width:100%;
+  height: 100%;
+  background-color: red;
+} */
+
+.logout-button {
+  position: relative; /* Required for positioning the pseudo-element */
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  overflow: hidden; /* Ensures pseudo-element doesn’t overflow */
+  transition: background-color 0.3s ease; /* Smooth transition for background */
+  z-index: 1; /* Ensure the button content is above the pseudo-element */
+}
+
+.logout-button:hover {
+  background-color: #c0392b;
+}
+
+.logout-button::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transition: top 0.3s ease;
+  z-index: -1; /* Ensure the pseudo-element stays behind */
+}
+
+.logout-button:hover::before {
+  top: 0; /* Slide into view */
+}
+/* 
+.logout-button {
+  color:white;
+  position: relative; /* Keeps the text above the pseudo-element */
+
+/* Section Styles */
+.section {
+  margin-bottom: 30px;
+  /* background-color:wheat; */
+  background:linear-gradient(120deg,#fff,#fff);
+
+}
+
+.section h3 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* Table Styles */
+.delivery-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.delivery-table th, .delivery-table td {
+  padding: 12px;
+  text-align: left;
+  
+}
+
+.delivery-table th {
+  /* background-color: #2c3e50; */
+  background-color: black;
+  color: orange;
+}
+
+.delivery-table td {
+  background-color: #ecf0f1;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  background-color: #9b59b6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #8e44ad;
+}
+
+.pagination span {
+  font-size: 16px;
+}
+/* 
+input, select, button {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #bdc3c7;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+.profile-card, .notifications-card, .leave-card {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
