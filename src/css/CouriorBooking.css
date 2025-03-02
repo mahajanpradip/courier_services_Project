@@ -222,3 +222,70 @@ hr {
 #paybutton:active {
   background-color: green;
 } 
+
+
+
+/* mobile responsive */
+@media screen and (max-width: 768px) {
+  .ok {
+      padding: 10px;
+  }
+
+  #title {
+      font-size: 18px;
+  }
+
+  #tabl {
+      font-size: 14px;
+  }
+
+  #tablerow {
+      font-size: 18px;
+  }
+
+  #inputt {
+      font-size: 14px;
+      padding: 8px;
+  }
+
+  #lastbtn1, #lastbtn2 {
+      width: 100%;
+  }
+
+  .billbox {
+      max-width: 100%;
+      padding: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #title {
+      font-size: 16px;
+  }
+
+  #tablerow {
+      font-size: 16px;
+  }
+
+  #text {
+      font-size: 24px;
+  }
+
+  #inputt {
+      font-size: 12px;
+      padding: 6px;
+  }
+
+  #paybutton {
+      font-size: 14px;
+      padding: 10px;
+  }
+
+  .bill {
+      font-size: 14px;
+  }
+
+  .billbox {
+      padding: 12px;
+  }
+}
